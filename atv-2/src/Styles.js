@@ -1,0 +1,16 @@
+import {StyleSheet} from "react-native";
+
+export const styles = StyleSheet.create({
+  title: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginBottom: 5
+  },
+  wrap: {
+    flex: 1,
+  },
+  content: {
+    margin: 10
+  },
+});
